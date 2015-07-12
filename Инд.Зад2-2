@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script>  
+<script>
+      $(document).ready(function () {
+         $("[align*='center']").dblclick(function () {
+		 $(this).hide();
+	});
+         $("button").dblclick(function () {
+		$("[align*='center']").show();
+	});
+	
+     });
+
+</script> 
+</head> 
+<body>  
+ <table >
+<tr align ="center"><td>Вася</td></tr>
+<tr><td>Олег</td></tr>
+<tr><td>Артем</td></tr>
+<tr><td>Максим</td></tr>
+<tr align ="center"><td>Леша</td></tr>
+<tr align ="center"><td>Клим</td></tr>
+<tr><td>Илья</td></tr>
+</table>
+<br>
+<button id="btn2">Отобразить исчезнувшие элементы</button>
+</body> 
+</html> 
