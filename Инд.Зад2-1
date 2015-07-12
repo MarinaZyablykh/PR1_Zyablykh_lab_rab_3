@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js">
+</script>
+<script>
+$(document).ready(function () {
+$("img").mouseenter(function () {
+$("img").hide();
+});
+});
+</script>
+</head>
+<body>
+<img src="http://secret-seo.ru/images/images/google-penguin-2.1.png" alt="Google">
+</body>
+</html>
