@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script>  
+<script>
+     $(document).ready(function () {
+         $("#btn1").click(function () {
+		 $("[href]").hide();
+	});
+	$("#btn2").click(function () {
+		 $("[href]").show();
+	});
+     });
+
+</script> 
+</head> 
+<body>  
+<p><a href="http://google.com//"> Поисковая система "Google"</a></p>
+<p>Поисковая система "Bing"</p>
+<p><a href="http://yahoo.com">Поисковая система "Yahoo"</a></p>
+<p><a href="http://yandex.com"> Поисковая система"Yandex"</a></p>
+<p>Поисковая система "Excite"</p>
+<p><a href="http:rambler.ru//">Поисковая система "Rambler"</a></p>
+<br>
+<br>
+<button id="btn1">Скрыть элементы c атрибутом href</button>
+<button id="btn2">Отобразить элементы c атрибутом href</button>
+</body> 
+</html>
