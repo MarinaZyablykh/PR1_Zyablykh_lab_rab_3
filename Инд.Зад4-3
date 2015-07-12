@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script> 
+<script> 
+    $(document).ready(function () { 
+        $("button").click(function () { 
+		$('#div1').delay(50).animate({left: '40px' });
+                $('#div2').text('ЛУЧ СЕРЕБРИСТЫЙ');
+                $('#div3').delay(50).animate({left: '40px' });
+                $('#div4').text('Ливень стучал тяжело');
+                $('#div5').delay(50).animate({left: '40px' });       
+                $('#div6').text('Им любовались мы долго,');
+	});     
+    }); 
+</script>  
+</head> 
+<body> 
+<button>Извлечь и присвоить</button> <br><br>
+<div id="div1" style="width:180px;height:20px;position:absolute">ЛУЧ СЕРЕБРИСТЫЙ</div> <br>
+<div id="div2" style="width:180px;height:20px;position:absolute">Эхо стонало, шумела река,</div><br><br>
+<div id="div3" style="width:180px;height:20px;position:absolute;">Ливень стучал тяжело</div><br>
+<div id="div4" style="width:180px;height:20px;position:absolute">Луч серебристый пронзил облака.</div><br><br>
+<div id="div5" style="width:180px;height:20px;position:absolute;">Им любовались мы долго,</div><br>
+<div id="div6" style="width:180px;height:20px;position:absolute;">Солнышко, солнце взошло!</div><br><br> 
+</body> 
+</html>
+
+
+
+
+
+
+
+
