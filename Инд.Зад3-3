@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script>
+$(document).ready(function () {
+$("button").click(function () {
+var i=1;
+do{
+$(".p2").fadeToggle();
+i++;
+if(i%2==0){
+$(".p1").fadeToggle();}
+}
+while(i<1000)
+$(".p1").hide();
+
+});
+});
+</script>
+</head>
+<body>
+<p class="p1"style="display:none">Еду. Тихо. Слышны звоны</p>
+<p class="p2" style="display:none">Под копытом на снегу.</p>
+<p class="p1"style="display:none">Словно серые вороны</p>
+<p class="p2" style="display:none">Раскричались на лугу</p>
+<p class="p1"style="display:none">Заколдован невидимкой,</p>
+<p class="p2" style="display:none">Дремлет лес под сказку сна,</p>
+<p class="p1"style="display:none">Словно белою косынкой</p>
+<p class="p2" style="display:none">Повязалася сосна.</p>
+<p class="p1"style="display:none">Принагнулась, как старушка,</p>
+<p class="p2" style="display:none">Оперлася на клюку,</p>
+<p class="p1"style="display:none">А под самою макушкой</p>
+<p class="p2" style="display:none">Долбит дятел на суку.</p>
+</body>
+<br><br><button>Появление четных и исчезновение нечетных</button>
+</html
