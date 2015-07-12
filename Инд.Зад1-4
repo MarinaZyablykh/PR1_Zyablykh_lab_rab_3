@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script>  
+<script>
+     $(document).ready(function () {
+         $("#btn1").click(function () {
+		 $("[align*='center']").hide();
+	});
+	$("#btn2").click(function () {
+		 $("[align*='center']").show();
+	});
+     });
+
+</script> 
+</head> 
+<body>  
+ <table >
+<tr align ="center"><td>Василий</td></tr>
+<tr><td>Олег</td></tr>
+<tr><td>Артем</td></tr>
+<tr><td>Максим</td></tr>
+<tr align ="center"><td>Алексей</td></tr>
+<tr align ="center"><td>Клим</td></tr>
+<tr><td>Илья</td></tr>
+</table>
+<br>
+<button id="btn1">Скрыть элементы, выравненные по центру</button>
+<button id="btn2">Отобразить элементы, выравненные по центру</button>
+</body> 
+</html> 
